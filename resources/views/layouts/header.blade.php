@@ -14,10 +14,16 @@
     <script src="{{ asset('fontawesome-free-5.15.3-web/js/all.js') }}" type="text/javascript"></script>
 </head>
 <body>
+<style>
+    #btnParceiro:hover {
+        background-color: #9c27b0;
+        color:white;
+    }
+</style>
 <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" href="https://demos.creative-tim.com/material-kit/index.html">
+            <a class="navbar-brand" href="#">
                 {{  str_replace('-', ' ', config('app.name', 'Laravel'))  }} </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="sr-only">Toggle navigation</span>
@@ -35,17 +41,17 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Nos siga no Twitter" rel="nofollow">
+                    <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/lvl1media" target="_blank" data-original-title="Nos siga no Twitter" rel="nofollow">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" data-original-title="Junte-se ao nosso Discord" rel="nofollow">
+                    <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://discord.gg/8PwZ5pxQmN" target="_blank" data-original-title="Junte-se ao nosso Discord" rel="nofollow">
                         <i class="fab fa-discord"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Nos siga no Instagram" rel="nofollow">
+                    <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/lvl1media" target="_blank" data-original-title="Nos siga no Instagram" rel="nofollow">
                         <i class="fab fa-instagram"></i>
                     </a>
                 </li>
@@ -53,14 +59,14 @@
         </div>
     </div>
 </nav>
-<div class="page-header header-filter" data-parallax="true" style="background-image: url('{{ asset('img/bg3.jpg') }}')">
+<div class="page-header header-filter" data-parallax="true" style="background-image: url('{{ asset('img/01.jpg') }}')">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-                <div class="brand text-center">
-{{--                                        <h1>Parceiros LVL1</h1>--}}
-                    {{--                    <h3 class="title text-center">Subtitle</h3>--}}
-                </div>
+            <div class="col-md-6">
+                <h1 class="title">Lvl1 Conecta</h1>
+                <h4>Agência de publicidade focada em trabalhos com streamers, youtubers e digital influencers. </h4>
+                <br>
+                <a id="btnParceiro" class="btn btn-link" href="#" style="color: white">Quero me tornar parceiro</a>
             </div>
         </div>
     </div>

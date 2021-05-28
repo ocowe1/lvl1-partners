@@ -55,7 +55,7 @@
         </div>
     </div>
 </nav>
-<div class="page-header header-filter" style="background-image: url('{{ asset('img/bg3.jpg') }}'); background-size: cover; background-position: top center;">
+<div class="page-header header-filter" style="background-image: url('{{ asset('img/01.jpg') }}'); background-size: cover; background-position: top center;">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 ml-auto mr-auto">

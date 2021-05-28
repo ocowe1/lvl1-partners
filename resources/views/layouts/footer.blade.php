@@ -8,13 +8,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.creative-tim.com/presentation">
+                    <a href="#sobre">
                         Sobre
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.creative-tim.com/blog">
-                        Blog
+                    <a href="#">
+                        Loja
                     </a>
                 </li>
             </ul>
