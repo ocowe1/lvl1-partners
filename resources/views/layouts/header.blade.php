@@ -12,6 +12,7 @@
     <link href="{{ asset('css/material-kit.css?v=2.0.7') }}" rel="stylesheet" />
     <link href="{{ asset('fontawesome-free-5.15.3-web/css/all.css') }}" rel="stylesheet"/>
     <script src="{{ asset('fontawesome-free-5.15.3-web/js/all.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('particles.json') }}" type="text/javascript"></script>
 </head>
 <body>
 <style>
@@ -19,6 +20,17 @@
         background-color: #9c27b0;
         color:white;
     }
+
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #242424;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
 </style>
 <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100">
     <div class="container">
@@ -59,15 +71,22 @@
         </div>
     </div>
 </nav>
-<div class="page-header header-filter" data-parallax="true" style="background-image: url('{{ asset('img/01.jpg') }}')">
+<div id="particles-js"></div>
+<div class="page-header header-filter" data-parallax="true">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="title">Lvl1 Conecta</h1>
-                <h4>Agência de publicidade focada em trabalhos com streamers, youtubers e digital influencers. </h4>
+                <h2 class="title">LeveelGG</h2>
+                <h4>É Streamer e se interessou no projeto? Confira aqui algumas vantagens de ser nosso parceiro!</h4>
+                <p>- Workshops profissionalizantes</p>
+                <p>- Participação em campeonatos</p>
+                <p>- Parcerias em projetos</p>
+                <p>- Material exclusivo de divulgação</p>
+                <p>- Benefícios incríveis</p>
                 <br>
                 <a id="btnParceiro" class="btn btn-link" href="#" style="color: white">Quero me tornar parceiro</a>
             </div>
         </div>
     </div>
+
 </div>

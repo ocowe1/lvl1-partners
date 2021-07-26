@@ -4,6 +4,8 @@
     <div class="container">
         <div class="section text-center" id="sobre">
             <h2 class="title">Conheça um pouco sobre nós</h2>
+            <p>A Leveelgg é um projeto criado pela agência <a href="https://www.lvl1media.com" target="_blank">Lvl1Media</a>.</p>
+            <p>Nosso objetivo é ajudar os Streamers que estão começando e os que estão há um tempo no mercado e precisando de um impulso para brilhar. Também queremos dar suporte à comunidade de criadores de conteúdo, criando uma rede de apoio, trocando experiências, incentivando, orientando, divulgando, ensinando, entre outros.</p>
         </div>
         <hr>
         <div class="section text-center" id="parceiros">
